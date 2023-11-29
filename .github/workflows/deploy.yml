@@ -36,12 +36,8 @@ jobs:
         touch .env
         echo DATABASE_URL=${{ secrets.DATABASE_URL }} >> .env
         cat .env
-
-    - name: run yarn install
-      working-directory: ./
-      run: yarn install
     
     - name: build server files
       working-directory: ./
       run: |
-        yarn build
+        yarn
