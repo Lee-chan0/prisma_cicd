@@ -2,6 +2,6 @@ REPOSITORY=/home/ubuntu/build
 
 cd $REPOSITORY
 
-/usr/bin/yarn
+yarn
 
-/usr/bin/pm2 start app.js
+pm2 start app.js
