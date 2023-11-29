@@ -1,4 +1,4 @@
-REPOSITORY=/home/ubuntu/build
+REPOSITORY=/home/ubuntu
 cd $REPOSITORY
 
 # pm2 진행되는 것 전체 삭제
