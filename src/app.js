@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api', [postRouter])
 
 app.get('/', (req, res) => {
-    return res.send('success!!');
+    return res.send('success~!!');
 })
 
 app.listen(3030, (req, res) => {
